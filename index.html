@@ -1,0 +1,167 @@
+<!DOCTYPE>
+<html>
+    <head>
+<link rel="stylesheet" href="home.css">
+    <title>Test Nav Bar</title>
+    </head>
+<body>
+    <!--NAVBAR-->
+<nav>
+    <ul class="navBar" id="navBarid">
+    <li><a href="#home">Home</a>  </li>
+    <li><a href="#home">Contacts</a>  </li>
+    <li class="topright"><a href="#home">SignIn</a>  </li> 
+    <li class="topright"><a href="#home">SignUp</a>  </li>
+    <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdown()">&#9776;</a></li>
+    </ul>
+</nav>
+    <!--Script for NavBar-->
+    <script>
+    function dropdown()
+        {
+            var x= document.getElementById("navBarid");
+            if (x.className === "navBar")
+            {
+                x.className += " respond";
+            }
+            else
+                {
+                    x.className = "navBar";
+                }
+        }
+    </script>
+<!--    blueish part -->
+<div class="container" id="part-1-gradient">
+    <div class="row">
+        <div class="col-6">
+            <div class="leftside">
+                <h1 class="Large">Crazy fellas</h1>
+                <h1  class="Large">Made for developers</h1>
+            </div>
+            <form>
+                <div class="leftside">
+                    <h2>Username</h2><input type="text" class="inputBox" placeholder="username" name="user">
+                    <h2>Password</h2>
+                    <input type="text" class="inputBox" placeholder="password" name="pass">
+                </div>
+            </form>
+        </div>
+        <div class="col-6">
+            <div class="rightside-col">
+                <div class="videoContainer">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/w86_VwPi52I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+                </div>
+        </div>
+    </div>
+    </div>    
+    <header>
+    <H1 class="section2Header">The Standards of Awesomeness</H1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="box">
+<!--           CHECK IF NOT GETTING -->
+                    <div class="icon">
+                    <img src="devicon.png">
+                    </div>
+                    <label>Chat with Me</label>
+                    <p>To check the data whether it looks good or not so only i am typing it and can't do copy from ipsum as my electricity went off whenever needed for study or sometime i lost internet conectivity.  </p>
+            </div>
+        </div>
+             <div class="col-4">
+                <div class="box">
+<!--           CHECK IF NOT GETTING -->
+                    <div class="icon">
+                    <img src="devicon.png">
+                    </div>
+                    <label>Learn to Code</label>
+                    <p>To check the data whether it looks good or not so only i am typing it and can't do copy from ipsum as my electricity went off whenever needed for study or sometime i lost internet conectivity.  </p>
+            </div>
+        </div>
+             <div class="col-4">
+                <div class="box">
+<!--           CHECK IF NOT GETTING -->
+                    <div class="icon">
+                    <img src="devicon.png">
+                    </div>
+                    <label>Build an empire</label>
+                    <p>To check the data whether it looks good or not so only i am typing it and can't do copy from ipsum as my electricity went off whenever needed for study or sometime i lost internet conectivity.  </p>
+            </div>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+            <button class="LearnMore">Learn More</button>
+            </div></div>
+        
+    </div>
+    
+    
+    
+    <hr>
+    <div class="container">
+        <div class="row">
+        <div class="col-7">
+            <article>
+                <p>
+                   To check the data whether it looks good or not so only i am typing it and can't do copy from ipsum as my electricity went off whenever needed for study or sometime i lost internet conectivity. To check the data whether it looks good or not so only i am typing it and can't do copy from ipsum as my electricity went off whenever needed for study or sometime i lost internet conectivity.  
+                </p>
+            </article>
+        </div>
+        
+    <div class="col-5">
+        <div class="slopeIcon">
+            <img src="12.png">
+        </div>
+        </div>
+    </div>
+    </div>
+    <footer class="foot">
+        <div class="row">
+            <div class="col-3 mobilestack">
+                <h1>Company</h1>
+                <ul>
+                    <li>
+                        About
+                    </li>
+                    <li>Blogs</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div class="col-3 mobilestack">
+                <h1>Company</h1>
+                <ul>
+                    <li>
+                        About
+                    </li>
+                    <li>Blogs</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div class="col-3 mobilestack">
+                <h1>Company</h1>
+                <ul>
+                    <li>
+                        About
+                    </li>
+                    <li>Blogs</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div class="col-3 mobilestack">
+                <h1>Company</h1>
+                <ul>
+                    <li>
+                        About
+                    </li>
+                    <li>Blogs</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            
+        </div>
+    </footer>
+    </body>
+</html>
